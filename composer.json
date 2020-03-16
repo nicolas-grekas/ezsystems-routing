@@ -1,5 +1,5 @@
 {
-    "name": "symfony-cmf/routing",
+    "name": "ezsystems/routing",
     "type": "library",
     "description": "Extends the Symfony routing component for dynamic routes and chaining several routers",
     "keywords": [
@@ -14,6 +14,9 @@
             "homepage": "https://github.com/symfony-cmf/Routing/contributors"
         }
     ],
+    "replace": {
+        "symfony-cmf/routing": "*"
+    },
     "require": {
         "php": "^7.1",
         "symfony/routing": "^3.4.22 || ^4.1 || ^5.0",
